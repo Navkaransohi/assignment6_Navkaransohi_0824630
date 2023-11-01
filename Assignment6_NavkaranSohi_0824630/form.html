@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Responsive Web Form</title>
+</head>
+<body>
+    <header>
+        <h1>Navkaran Sohi</h1>
+    </header>
+    <main>
+        <form id="responsive-form">
+            <div class="form-row">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-row">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-row">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-row">
+                <label for="address">Address</label>
+                <textarea id="address" name="address" required></textarea>
+            </div>
+            <div class="form-row">
+                <label>Radiobox</label>
+                <div class="radio-options">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="yes" name="radiobox" value=" yes" required>
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="radiobox" value="no" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>
+            copyright 2023 Navkaran Sohi
+        </p>
+    </footer>
+</body>
+</html>
