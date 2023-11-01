@@ -17,7 +17,7 @@ body {
         font-size: 3em; 
     }
     .form-row {
-        width: 100%;
+        width: 150%;
         display: block;
         margin-bottom: 10px;
     }
@@ -48,7 +48,7 @@ body {
         margin-bottom: 10px;
     }
     h1{
-        font-size: 4em;
+        font-size: 4em ;
     }
     label {
         flex-basis: 40%; 
